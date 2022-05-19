@@ -1,0 +1,11 @@
+Munkalap száma;Ügyfél;E-mail;Telefon; Bruttó végösszeg; Ügyintézõ;
+NMLM108383;FlottaMan Zrt.;info@flottaman.hu; (70)6385222;306027,00;Kertész Norbert;
+Cikkszám;Megnevezés;Mennyiség;Listaár;Egységár;Nettó érték;Áfa kulcs;Adó;Bruttó érték;Kedvezmény;
+'51712G4000H';E.FÉKTÁRCSA / DB;2,00;33430,00;31759,00;63518,00;27,00;17150,00;80668,00;5,00;
+'58101G4A00H';E.FÉKBETÉT GARN.;1,00;38070,00;36167,00;36167,00;27,00;9765,00;45932,00;5,00;
+'58302G4A30H';H. FÉKBETÉT GARN.;1,00;21801,00;20711,00;20711,00;27,00;5592,00;26303,00;5,00;
+'58411G4300H';H. FÉKTÁRCSA / DB;2,00;33372,00;31703,00;63406,00;27,00;17120,00;80526,00;5,00;
+Normakód;Megnevezés;Mennyiség;Listaár;Egységár;Nettó érték;Áfa kulcs;Adó;Bruttó érték;Kedvezmény;
+'BDP';E-H FÉKTÁRCSA ÉS FÉKBETÉT CSERE;3,00;18900,00;17388,00;52164,00;27,00;14084,00;66248,00;8,00;
+Kód;Megnevezés;Mennyiség;Listaár;Egységár;Nettó érték;Áfa kulcs;Adó;Bruttó érték;Kedvezmény;
+'SANYAG';Segédanyag;1,00;5000,00;5000,00;5000,00;27,00;1350,00;6350,00;0,00;

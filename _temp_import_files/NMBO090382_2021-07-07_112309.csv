@@ -1,0 +1,12 @@
+Munkalap száma;Ügyfél;E-mail;Telefon; Bruttó végösszeg; Ügyintézõ;
+NMBO090382;Farkasné Váradi Vivien;vrdi.vivien@gmail.com; (20) 9302211;330398,00;Pálinkás Olivér Levente;
+Cikkszám;Megnevezés;Mennyiség;Listaár;Egységár;Nettó érték;Áfa kulcs;Adó;Bruttó érték;Kedvezmény;
+'921006951R';KLIMAHÛTÕ;1,00;97455,00;97455,00;97455,00;27,00;26313,00;123768,00;0,00;
+'924414EB0A';LÉGKONDICSÕ;1,00;36865,00;36865,00;36865,00;27,00;9954,00;46819,00;0,00;
+'924474EB0A';FÜTÕ ALK.;1,00;17520,00;17520,00;17520,00;27,00;4730,00;22250,00;0,00;
+'R1234YF';HÛTÕKÖZEG KLIMAGAZ;0,40;78740,00;78740,00;31496,00;27,00;8504,00;40000,00;0,00;
+Normakód;Megnevezés;Mennyiség;Listaár;Egységár;Nettó érték;Áfa kulcs;Adó;Bruttó érték;Kedvezmény;
+'97606R00';KLÍMAHÛTÕ CSERE;2,80;18900,00;18900,00;52920,00;27,00;14288,00;67208,00;0,00;
+'akció1';Klíma hûtõközeg Feltöltés;1,00;18900,00;18900,00;18900,00;27,00;5103,00;24003,00;0,00;
+Kód;Megnevezés;Mennyiség;Listaár;Egységár;Nettó érték;Áfa kulcs;Adó;Bruttó érték;Kedvezmény;
+'SANYAG';Segédanyag;1,00;5000,00;5000,00;5000,00;27,00;1350,00;6350,00;0,00;

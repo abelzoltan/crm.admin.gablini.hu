@@ -1,0 +1,11 @@
+Munkalap száma;Ügyfél;E-mail;Telefon; Bruttó végösszeg; Ügyintézõ;
+NMLM107948;Kontexa Kft;horvathklari@vnet.hu; (30)9218746;177342,00;Erdélyi János;
+Cikkszám;Megnevezés;Mennyiség;Listaár;Egységár;Nettó érték;Áfa kulcs;Adó;Bruttó érték;Kedvezmény;
+'0112100Q8L';CSAVAR, PATENT;1,00;2190,00;2190,00;2190,00;27,00;591,00;2781,00;0,00;
+'1172000Q8A';1172000Q8A ERRE VÁLTOZIK;1,00;11541,00;11541,00;11541,00;27,00;3116,00;14657,00;0,00;
+'119551KB2A';EGYÉB ALKATRÉSZ;1,00;35770,00;35770,00;35770,00;27,00;9658,00;45428,00;0,00;
+'1680600Q2N';VEZÉRMÛSZÍJ SZETT;1,00;49275,00;49275,00;49275,00;27,00;13304,00;62579,00;0,00;
+Normakód;Megnevezés;Mennyiség;Listaár;Egységár;Nettó érték;Áfa kulcs;Adó;Bruttó érték;Kedvezmény;
+'02081A';VEZÉRMÛSZÍJ CSERE;2,00;18900,00;18900,00;37800,00;27,00;10206,00;48006,00;0,00;
+Kód;Megnevezés;Mennyiség;Listaár;Egységár;Nettó érték;Áfa kulcs;Adó;Bruttó érték;Kedvezmény;
+'SANYAG';Segédanyag;1,00;3063,00;3063,00;3063,00;27,00;827,00;3890,00;0,00;

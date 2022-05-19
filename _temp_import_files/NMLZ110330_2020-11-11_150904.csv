@@ -1,0 +1,9 @@
+Munkalap száma;Ügyfél;E-mail;Telefon; Bruttó végösszeg; Ügyintézõ;
+NMLZ110330;dr.Fejes Annamária;drfejes.annamaria@gmail.com; (20) 3292617;147069,00;Makai Péter;
+Cikkszám;Megnevezés;Mennyiség;Listaár;Egységár;Nettó érték;Áfa kulcs;Adó;Bruttó érték;Kedvezmény;
+'FEBI15951';LENGÕKAR J.E.;1,00;20101,00;20101,00;20101,00;27,00;5427,00;25528,00;0,00;
+'FEBI15952';LENGÕKAR B.E.;1,00;20101,00;20101,00;20101,00;27,00;5427,00;25528,00;0,00;
+Normakód;Megnevezés;Mennyiség;Listaár;Egységár;Nettó érték;Áfa kulcs;Adó;Bruttó érték;Kedvezmény;
+'MG55A1';LENGÕKAR (MINDKÉT OLDAL);3,00;18900,00;18900,00;56700,00;27,00;15309,00;72009,00;0,00;
+'WD49A3';FUTÓMÛ BEÁLÍTÁS;1,00;18900,00;18900,00;18900,00;27,00;5103,00;24003,00;0,00;
+Kód;Megnevezés;Mennyiség;Listaár;Egységár;Nettó érték;Áfa kulcs;Adó;Bruttó érték;Kedvezmény;

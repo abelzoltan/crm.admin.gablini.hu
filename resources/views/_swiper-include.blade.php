@@ -1,0 +1,2 @@
+<link rel="stylesheet" href="<?php echo URL::asset("vendors/Swiper-3.4.2/dist/css/swiper.min.css"); ?>">
+<script src="<?php echo URL::asset("vendors/Swiper-3.4.2/dist/js/swiper.jquery.min.js"); ?>"></script>

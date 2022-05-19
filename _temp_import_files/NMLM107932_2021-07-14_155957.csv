@@ -1,0 +1,11 @@
+Munkalap száma;Ügyfél;E-mail;Telefon; Bruttó végösszeg; Ügyintézõ;
+NMLM107932;Kontexa Kft;horvathklari@vnet.hu; (30)9218746;30131,00;Erdélyi János;
+Cikkszám;Megnevezés;Mennyiség;Listaár;Egységár;Nettó érték;Áfa kulcs;Adó;Bruttó érték;Kedvezmény;
+Normakód;Megnevezés;Mennyiség;Listaár;Egységár;Nettó érték;Áfa kulcs;Adó;Bruttó érték;Kedvezmény;
+'ASS';Real Garant Assistance;1,00;1,00;1,00;1,00;27,00;0,00;1,00;0,00;
+'V1';VIZSGÁRA FELKÉSZÍTÉS;1,00;10937,00;10937,00;10937,00;27,00;2953,00;13890,00;0,00;
+'V4';KÖRNYEZETVÉDELMI MÉRÉS;0,25;23200,00;23200,00;5800,00;0,00;0,00;5800,00;0,00;
+'V5';HATÓSÁGI VIZSGADÍJ SZ.;0,25;3760,00;3760,00;940,00;0,00;0,00;940,00;0,00;
+Kód;Megnevezés;Mennyiség;Listaár;Egységár;Nettó érték;Áfa kulcs;Adó;Bruttó érték;Kedvezmény;
+'ALV1';HATÓSÁGI VIZSGADÍJ;1,00;9500,00;9500,00;9500,00;0,00;0,00;9500,00;0,00;
+'SANYAG';Segédanyag;1,00;0,00;0,00;0,00;27,00;0,00;0,00;?;

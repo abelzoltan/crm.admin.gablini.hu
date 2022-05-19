@@ -1,0 +1,11 @@
+Munkalap száma;Ügyfél;E-mail;Telefon; Bruttó végösszeg; Ügyintézõ;
+NMBO085969;CAMION EXPRESSZ SZERVÍZ KFT.;galkrisztian@camionexpressz.hu; (30)2225023;555180,00;Király László;
+Cikkszám;Megnevezés;Mennyiség;Listaár;Egységár;Nettó érték;Áfa kulcs;Adó;Bruttó érték;Kedvezmény;
+'1406431U1AI';STUD;2,00;3040,00;3040,00;6080,00;27,00;1642,00;7722,00;0,00;
+'2060241G0AI';NUT;4,00;1900,00;1900,00;7600,00;27,00;2052,00;9652,00;0,00;
+'B08B31EM5BI';THREE WAY CATAL;1,00;309350,00;309350,00;309350,00;27,00;83525,00;392875,00;0,00;
+Normakód;Megnevezés;Mennyiség;Listaár;Egységár;Nettó érték;Áfa kulcs;Adó;Bruttó érték;Kedvezmény;
+'DI';Diagnosztikai vizsgálat;1,00;25900,00;25900,00;25900,00;27,00;6993,00;32893,00;0,00;
+'FD20L3';KATALIZÁTOR CSERE / BAL;3,80;21900,00;21900,00;83220,00;27,00;22469,00;105689,00;0,00;
+Kód;Megnevezés;Mennyiség;Listaár;Egységár;Nettó érték;Áfa kulcs;Adó;Bruttó érték;Kedvezmény;
+'SANYAG';Segédanyag;1,00;5000,00;5000,00;5000,00;27,00;1350,00;6350,00;0,00;

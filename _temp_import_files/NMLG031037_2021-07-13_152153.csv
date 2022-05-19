@@ -1,0 +1,10 @@
+Munkalap száma;Ügyfél;E-mail;Telefon; Bruttó végösszeg; Ügyintézõ;
+NMLG031037;Bruzsa Zoltán;nozi7568@gmail.com; (20) 2923471;84675,00;Sepsei Nándor;
+Cikkszám;Megnevezés;Mennyiség;Listaár;Egységár;Nettó érték;Áfa kulcs;Adó;Bruttó érték;Kedvezmény;
+'58302A8A65';HÁTSÓ FÉKBETÉT KLT.;1,00;31769,00;31769,00;31769,00;27,00;8578,00;40347,00;0,00;
+'934468';H. FÉKBETÉT(AZBESZT MENTES);1,00;18787,00;18787,00;18787,00;27,00;5072,00;23859,00;0,00;
+Normakód;Megnevezés;Mennyiség;Listaár;Egységár;Nettó érték;Áfa kulcs;Adó;Bruttó érték;Kedvezmény;
+'58415RG0';FÉKBETÉT CSERE HÁTSÓ;0,80;14500,00;14500,00;11600,00;27,00;3132,00;14732,00;0,00;
+'FHM';FÉKHATÁS MÉRÉS;0,20;14500,00;14500,00;2900,00;27,00;783,00;3683,00;0,00;
+Kód;Megnevezés;Mennyiség;Listaár;Egységár;Nettó érték;Áfa kulcs;Adó;Bruttó érték;Kedvezmény;
+'SANYAG';Segédanyag;1,00;1617,00;1617,00;1617,00;27,00;437,00;2054,00;0,00;

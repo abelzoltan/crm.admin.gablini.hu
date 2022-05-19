@@ -1,0 +1,306 @@
+/* ------------------------------------------------------------------------------------------------------------------------------------------------ */
+/* Frame ------------------------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------------------------------ */
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i');
+
+body{
+	font-family: "Roboto", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 135%;
+	color: #000;
+	background-color: #e1e1e1;
+	overflow-x: hidden;
+}
+
+#background-top{
+	height: 278px;
+	background-color: #0f0f0f;
+	overflow: hidden;
+}
+
+#background-top-img{
+	width: 90%;
+	max-width: 640px;
+	margin: 20px auto;
+	height: 138px;
+	overflow: hidden;
+}
+
+#background-top-img img{
+	display: block;
+	max-height: 138px;
+	margin: 0 auto;
+}
+
+#form-container{
+	position: relative;
+	width: 90%;
+	max-width: 640px;
+	margin: -100px auto 0 auto;
+	background-color: #fff;
+}
+
+#form-border-top{
+	height: 8px;
+	background-color: #0e76a9;
+}
+
+#form{
+	padding: 34px;
+}
+
+#form-title{
+	font-size: 34px;
+	line-height: 135%;
+}
+
+.form-text{
+	margin-top: 22px;
+}
+
+.form-error{
+	color: #cc0000;
+}
+
+.form-success{
+	color: #0f9d58;
+}
+
+.form-info{
+	color: #1266f1;
+}
+
+.form-text p{
+	margin: 10px 0 0 0;
+}
+
+#questionnaire{
+	margin-top: 16px;
+}
+
+.form-row{
+	margin-top: 2px;
+    padding: 16px 0;
+}
+
+.form-question{
+	font-size: 20px;
+	line-height: 135%;
+	word-wrap: break-word;
+}
+
+.required, .form-required{
+	color: #cc0000;
+}
+
+.form-input{
+	padding: .5em .5em .5em 0;
+}
+
+.my-input{
+	display: block;
+	width: 75%;
+	height: 36px;
+	min-height: 36px;
+	margin-bottom: 8px;
+	padding: 10px 1px 1px 1px;
+	border: 0;
+	border-bottom: 1px solid #e0e0e0;
+	font-size: 16px;
+	line-height: 24px;
+	color: #333;
+	background-color: transparent;
+	outline: none;
+	-webkit-tap-highlight-color: transparent;
+}
+
+.my-input[readonly], .my-input[disabled]{
+	cursor: not-allowed;
+}
+
+.my-input:focus{
+	border-color: #0f0f0f;
+	transition: border .4s ease-out;
+		-webkit-transition: border .4s ease-out;
+		-moz-transition: border .4s ease-out;
+		-o-transition: border .4s ease-out;
+		-ms-transition: border .4s ease-out;
+}
+
+.my-select, .my-textarea{
+	margin-top: 5px;
+	padding: 5px;
+	border: 1px solid #e0e0e0;
+}
+
+.my-textarea{
+	height: auto;
+	resize: vertical;
+}
+
+.my-checkbox-container, .my-radio-container{
+	position: relative;
+	display: block;
+	float: left;
+	margin-bottom: 8px;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.my-checkbox, .my-checkbox-input, .my-radio, .my-radio-input{
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	z-index: 2;
+	display: block;
+	margin: 2px 0 !important;
+	width: 20px;
+	height: 20px;
+	opacity: 0;
+	cursor: pointer;
+}
+
+.my-checkbox-input, .my-radio-input{
+	z-index: 1;
+	opacity: 1;
+	border: 2px solid #a2a2a2;
+	background-color: #fff;
+	cursor: pointer;	
+	transition: all .4s ease-out;
+		-webkit-transition: all .4s ease-out;
+		-moz-transition: all .4s ease-out;
+		-o-transition: all .4s ease-out;
+		-ms-transition: all .4s ease-out;
+}
+
+.my-checkbox-input-content, .my-radio-input-content{
+	width: 8px;
+	height: 8px;
+	margin: 4px;
+	transition: all .4s ease-out;
+		-webkit-transition: all .4s ease-out;
+		-moz-transition: all .4s ease-out;
+		-o-transition: all .4s ease-out;
+		-ms-transition: all .4s ease-out;
+}
+
+.my-radio-input, .my-radio-input-content{
+	border-radius: 50%;
+}
+
+.my-checkbox:checked + .my-checkbox-input, .my-radio:checked + .my-radio-input{
+	border-color: #0f0f0f;
+}
+
+.my-checkbox:checked + .my-checkbox-input .my-checkbox-input-content, .my-radio:checked + .my-radio-input .my-radio-input-content{
+	background-color: #0f0f0f;
+}
+
+.my-checkbox-label, .my-radio-label{
+	padding-left: 30px;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	cursor: pointer;
+}
+
+.my-btn{
+	display: block;
+	width: auto;
+	margin: 0;
+	padding: 5px 20px;
+	border: 0;
+	border-radius: 3px;
+	font-size: 20px;
+	line-height: 36px;
+	color: #fff;
+	background-color: #4285f4;
+	cursor: pointer;
+	transition: all .4s ease-out;
+		-webkit-transition: all .4s ease-out;
+		-moz-transition: all .4s ease-out;
+		-o-transition: all .4s ease-out;
+		-ms-transition: all .4s ease-out;
+}
+
+.my-btn:hover{
+	background-color: #1266f1;
+}
+
+::-webkit-input-placeholder{
+	color: #dbdbdb;
+	opacity: 1;
+}
+:-moz-placeholder{
+	color: #dbdbdb;
+	opacity: 1;
+}
+::-moz-placeholder{
+	color: #dbdbdb;
+	opacity: 1;
+}
+:-ms-input-placeholder{
+	color: #dbdbdb;
+	opacity: 1;
+}
+::-ms-input-placeholder{
+	color: #dbdbdb;
+	opacity: 1;
+}
+
+@media screen and (max-width: 670px){
+	body{
+		font-size: 14px;
+	}
+	
+	#background-top{
+		height: 122px;
+	}
+	
+	#background-top-img{
+		margin-top: 11px;
+		margin-bottom: 11px;
+		height: 92px;
+	}
+	
+	#background-top-img img{
+		max-height: 92px;
+	}
+	
+	#form-container{
+		margin-top: -8px;
+	}
+	
+	#questionnaire{
+		margin-top: 10px;
+	}
+
+	.form-row{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.my-input{
+		width: 100%;
+		font-size: 14px;
+	}
+
+	.my-checkbox-label, .my-radio-label{
+		font-size: 14px;
+	}
+
+	.my-btn{
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media screen and (max-width: 480px){
+	#form-title{
+		font-size: 24px;
+	}
+	
+	.form-question{
+		font-size: 18px;
+	}
+}

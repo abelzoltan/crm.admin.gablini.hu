@@ -1,0 +1,570 @@
+/* -------------------- BASIC -------------------- */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,500,700');
+
+body{
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 16px;
+	line-height: 22px;
+	color: #000;
+	background-color: #fff;
+}
+
+#body{
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	padding-bottom: 30px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+/* -------------------- HEADER -------------------- */
+#main-header{
+	position: fixed;
+	z-index: 1000;
+	width: 100%;
+	height: 70px;
+	padding-left: 70px;
+	background-color: #d8d8d8;
+	-webkit-transform: translateZ(0);
+}
+
+#main-header-under{
+	height: 70px;
+}
+
+#main-header-logo{
+	float: left;
+	height: 100%;
+	padding: 25px 10px;
+}
+
+#main-header-logo img{
+	max-height: 100%;
+}
+
+#main-header-title{
+	float: left;
+	padding: 20px 10px;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+#main-header-menu-open, #main-header-others-open{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1001;
+	width: 70px;
+	height: 70px;
+	text-align: center;
+	color: inherit !important;
+	cursor: pointer;
+}
+
+#main-header-menu-open:hover, #main-header-others-open:hover{
+	color: #fff !important;
+	background-color: #21437f;
+}
+
+#main-header-menu-open i, #main-header-others-open i{
+	font-size: 34px;
+	line-height: 70px;
+}
+
+#main-header-others-open{
+	left: auto;
+	right: 0;
+}
+
+.main-header-others{
+	position: fixed;
+	top: 75px;
+	right: 5px;
+	z-index: 2000;
+	width: 50%;
+	max-width: 300px;
+	height: 0;
+	opacity: 0;
+	visibility: hidden;
+	overflow-x: hidden;
+	overflow-y: auto;
+	-webkit-transform: translateZ(0);
+}
+
+.main-header-others-opened{
+	height: auto;
+	opacity: 1;
+	visibility: visible;
+}
+
+.main-header-others-ul, .main-header-others-li, .main-header-others-li-clear{
+	display: block;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style-type: none;
+}
+
+.main-header-others-ul{
+	border-radius: 6px;
+	background-color: #fff;
+	overflow: hidden;
+}
+
+.main-header-others-a{
+	display: block;
+	padding: 5px 8px;
+	font-size: 16px;
+	line-height: 30px;
+	color: #000 !important;
+}
+
+.main-header-others-a:hover, .main-header-others-a-active{
+	color: #19219d  !important;
+	background-color: #ddd;
+}
+
+/* -------------------- CONTENT -------------------- */
+.my-container{
+	width: 90%;
+	max-width: 990px;
+	margin: 0 auto;
+}
+
+.white-container{
+	padding: 15px;
+	background-color: #fff;
+}
+
+.my-bg-gray, .my-bg-grey{
+	background-color: #efecea;
+}
+
+.my-btn{
+	display: block;
+	margin: 0 auto;
+	padding: 20px;
+	border: 0;
+	border-top-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	font-size: 18px;
+	line-height: 26px;
+	color: #21437f !important;
+	background-color: #efecea;
+	text-align: center;
+	font-weight: normal;
+}
+
+body.my-bg-gray .my-btn, .my-btn-inverse{
+	background-color: #fff;
+}
+
+body.my-bg-gray .my-btn-inverse{
+	background-color: #efecea;
+}
+
+.my-btn:hover{
+	background-color: #d8d8d8;
+}
+
+.my-btn-small{
+	padding: 5px 10px;
+}
+
+.text-myblue{
+	color: #21437f;
+}
+
+#menu-logo{
+	margin: 0 auto;
+	padding: 20px;
+	border-top-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	background-color: #efecea;
+}
+
+.menu-btn{
+	margin-top: 20px;
+}
+
+.link{
+	color: #21437f !important;
+}
+
+.link:hover{
+	color: #333f4a !important;
+}
+
+.profile-row + .profile-row{
+	padding-top: 15px;
+}
+
+.profile-left{
+	float: left;
+	width: 50%;
+	padding-right: 15px;
+}
+
+.profile-left-inner{
+	padding: 10px 0;
+	color: #21437f;
+	text-transform: uppercase;
+}
+
+.profile-right{
+	float: left;
+	width: 50%;
+	padding-left: 15px;	
+}
+
+.profile-right-inner{
+	padding: 10px 15px;
+	border-top-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	background-color: #fff;
+}
+
+.premise-container{
+	padding: 15px;
+	border-top-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	background-color: #fff;
+}
+
+.premise-brands{
+	margin-top: 15px;
+}
+
+.premise-brands-img{
+	display: inline-block;
+	margin: 0 5px;
+}
+
+.premise-brands-img:first-child{
+	margin-left: 0;
+}
+
+.points-info{
+	margin-bottom: 20px;
+	padding: 15px 10px;
+	text-align: center;
+	border-top-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	background-color: #efecea;
+}
+
+body.my-bg-gray .points-info{
+	background-color: #fff;
+}
+
+.points-table{
+	font-size: 14px;
+}
+
+.points-year{
+	background-color: #21437f !important;
+}
+
+.points-year td{
+	border: 0 !important;
+	font-size: 18px;
+	line-height: 24px;
+	text-align: center;
+	font-weight: 300;
+	color: #fff;
+}
+
+.points-table.table>thead>tr>th{
+	border-bottom: 0;
+}
+
+.table td, .table th{
+	vertical-align: middle !important;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd){
+	background-color: #efecea;
+}
+
+.table-striped>tbody>tr:nth-of-type(even){
+	background-color: #fff;
+}
+
+.table-hover>tbody>tr:hover{
+	background-color: #d8d8d8;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+	border-top-color: #d8d8d8;
+}
+
+/* ---- */
+
+.car{
+	border: 2px solid #333f4b;
+	padding: 15px;
+	background-color: #efecea;
+	border-top-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+}
+
+.car-nissan{
+	border-color: #c71444;
+}
+
+.car-peugeot{
+	border-color: #133d5f;
+}
+
+.car-hyundai{
+	border-color: #046be0;
+}
+
+.car-kia{
+	border-color: #bb162b;
+}
+
+.car-citroen{
+	border-color: #e1412d;
+}
+
+.car-infiniti{
+	border-color: #000;
+}
+
+.car-data-row + .car-data-row{
+	padding-top: 10px;
+}
+
+.car-data-left-inner{
+	padding-bottom: 7px;
+	color: #21437f;
+	text-transform: uppercase;
+}
+
+.car-data-right{
+	float: right;
+	width: 80%;	
+}
+
+.car-data-right-inner{
+	padding: 10px 15px;
+	border-top-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	text-align: center;
+	background-color: #fff;
+}
+
+.premise-container{
+	padding: 15px;
+	border-top-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	background-color: #fff;
+}
+
+/* -- */
+
+.car-nissan .my-btn, #body-nissan .my-btn, #body-nissan #main-header{
+	background-color: #c71444;
+}
+
+.car-nissan .my-btn:hover, #body-nissan .my-btn:hover, #body-nissan #main-header-menu-open:hover, #body-nissan #main-header-others-open:hover{
+	background-color: #a21037;
+}
+
+.car-peugeot .my-btn, #body-peugeot .my-btn, #body-peugeot #main-header{
+	background-color: #133d5f;
+}
+
+.car-peugeot .my-btn:hover, #body-peugeot .my-btn:hover, #body-peugeot #main-header-menu-open:hover, #body-peugeot #main-header-others-open:hover{
+	background-color: #0c2d47;
+}
+
+.car-hyundai .my-btn, #body-hyundai .my-btn, #body-hyundai #main-header{
+	background-color: #046be0;
+}
+
+.car-hyundai .my-btn:hover, #body-hyundai .my-btn:hover, #body-hyundai #main-header-menu-open:hover, #body-hyundai #main-header-others-open:hover{
+	background-color: #003366;
+}
+
+.car-kia .my-btn, #body-kia .my-btn, #body-kia #main-header{
+	background-color: #bb162b;
+}
+
+.car-kia .my-btn:hover, #body-kia .my-btn:hover, #body-kia #main-header-menu-open:hover, #body-kia #main-header-others-open:hover{
+	background-color: #dd162d;
+}
+
+.car-citroen .my-btn, #body-citroen .my-btn, #body-citroen #main-header{
+	background-color: #e1412d;
+}
+
+.car-citroen .my-btn:hover, #body-citroen .my-btn:hover, #body-citroen #main-header-menu-open:hover, #body-citroen #main-header-others-open:hover{
+	background-color: #d6331f;
+}
+
+.car-infiniti .my-btn, #body-infiniti .my-btn, #body-infiniti #main-header{
+	background-color: #000;
+}
+
+.car-infiniti .my-btn:hover, #body-infiniti .my-btn:hover, #body-infiniti #main-header-menu-open:hover, #body-infiniti #main-header-others-open:hover{
+	background-color: #1a1a1a;
+}
+
+.car .my-btn{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.car-nissan .my-btn, .car-peugeot .my-btn, .car-hyundai .my-btn, .car-kia .my-btn, .car-citroen .my-btn, .car-infiniti .my-btn, #body-nissan .my-btn, #body-peugeot .my-btn, #body-hyundai .my-btn, #body-kia .my-btn, #body-citroen .my-btn, #body-infiniti .my-btn{
+	color: #fff !important;
+}
+
+/* -- */
+#body-nissan .myform-horizontal .form-control, #body-nissan .myform-horizontal .radio-inline input[type="radio"]:checked + .radio-inline-bg{
+	border-color: #c71444 !important;
+}
+
+#body-peugeot .myform-horizontal .form-control, #body-peugeot .myform-horizontal .radio-inline input[type="radio"]:checked + .radio-inline-bg{
+	border-color: #133d5f !important;
+}
+
+#body-hyundai .myform-horizontal .form-control, #body-hyundai .myform-horizontal .radio-inline input[type="radio"]:checked + .radio-inline-bg{
+	border-color: #046be0 !important;
+}
+
+#body-kia .myform-horizontal .form-control, #body-kia .myform-horizontal .radio-inline input[type="radio"]:checked + .radio-inline-bg{
+	border-color: #bb162b !important;
+}
+
+#body-citroen .myform-horizontal .form-control, #body-citroen .myform-horizontal .radio-inline input[type="radio"]:checked + .radio-inline-bg{
+	border-color: #d6331f !important;
+}
+
+#body-infiniti .myform-horizontal .form-control, #body-infiniti .myform-horizontal .radio-inline input[type="radio"]:checked + .radio-inline-bg{
+	border-color: #000 !important;
+}
+
+/* -------------------- Forms -------------------- */
+/* Frame */
+#myform .form-msg{
+	margin: 15px auto;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+}
+
+.myform-horizontal .form-group{
+	margin: 15px auto;
+}
+
+.myform-horizontal .form-control{
+    color: #000 !important;
+    border-color: #fff !important;
+    border-radius: 0 !important;
+	border-top-right-radius: 25px !important;
+	border-bottom-left-radius: 25px !important;
+		-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+/* Radio buttons */
+.myform-horizontal .radio-inline-text, .myform-horizontal .radio-inline{
+	display: inline-block;
+	margin: 0 10px;
+	padding: 10px 15px;
+	font-size: 16px;
+	line-height: 22px;
+	vertical-align: middle;
+}
+
+.myform-horizontal .radio-inline-text{
+	margin: 0;
+}
+
+.myform-horizontal .radio-inline{
+	padding-left: 33px;
+}
+
+.myform-horizontal .radio-inline input[type="radio"]{
+	z-index: 1;
+	width: 16px;
+	height: 16px;
+	margin: 4px 0 0 -22px;
+	cursor: pointer;
+}
+
+.myform-horizontal .radio-inline span{
+	position: relative;
+	z-index: 1;
+}
+
+.myform-horizontal .radio-inline-bg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+	border: 1px solid transparent;
+	border-top-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+}
+
+.myform-horizontal .radio-inline input[type="radio"]:checked + .radio-inline-bg{
+	border-color: #333f4b;
+	background-color: #fff;
+}
+
+.myform-horizontal .radio-inline:hover .radio-inline-bg{
+	background-color: #fff;
+}
+
+/* Checkbox (terms) */
+.myform-checkbox{
+	font-weight: normal;
+	margin-bottom: 0;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.myform-checkbox input{
+	display: inline-block;
+	margin: 0 5px 0 0; 
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+}
+
+.myform-checkbox span{
+	font-size: 16px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/* Select */
+.myform-select-option-first{
+	color: #bfbfbf;
+}
+
+/* Form loading */
+#myform-loading-txt{
+	margin-top: 15px;
+}
+
+/* -------------------- FOOTER -------------------- */
+#main-footer{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 30px;
+	padding: 0 5px;
+	font-size: 14px;
+	line-height: 30px;
+	font-weight: bold;
+	text-align: center;
+	background-color: #fff;
+}

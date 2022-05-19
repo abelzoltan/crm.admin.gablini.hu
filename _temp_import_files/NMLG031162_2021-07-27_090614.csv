@@ -1,0 +1,13 @@
+Munkalap száma;Ügyfél;E-mail;Telefon; Bruttó végösszeg; Ügyintézõ;
+NMLG031162;FUTURE FLEET KFT.;koppanyi.attila@future-fm.hu; (70)5299095;1612802,00;Lovász Tamás Dávid;
+Cikkszám;Megnevezés;Mennyiség;Listaár;Egységár;Nettó érték;Áfa kulcs;Adó;Bruttó érték;Kedvezmény;
+'31922A9000';FILTER CARTRIDGE;1,00;14608,00;12855,00;12855,00;27,00;3471,00;16326,00;12,00;
+'331002F600';PUMP ASSY-HIGH PRESSURE;1,00;253487,00;223069,00;223069,00;27,00;60229,00;283298,00;12,00;
+'338002F610';INJECTOR ASSY-FUEL;4,00;267705,00;235580,00;942320,00;27,00;254426,00;1196746,00;12,00;
+Normakód;Megnevezés;Mennyiség;Listaár;Egységár;Nettó érték;Áfa kulcs;Adó;Bruttó érték;Kedvezmény;
+'31030R00';ÜZEMANYAG SZÛRÕ CSERE;0,50;15900,00;13038,00;6519,00;27,00;1760,00;8279,00;18,00;
+'35310R00';PORLASZTÓ KI - BESZERELÉS;1,00;15900,00;13038,00;13038,00;27,00;3520,00;16558,00;18,00;
+'DN10A2';MAGASNYOMÁSÚ PUMPA CSERÉJE;3,20;15900,00;13038,00;41722,00;27,00;11265,00;52987,00;18,00;
+Kód;Megnevezés;Mennyiség;Listaár;Egységár;Nettó érték;Áfa kulcs;Adó;Bruttó érték;Kedvezmény;
+'SANYAG';Segédanyag;1,00;5000,00;5000,00;5000,00;27,00;1350,00;6350,00;0,00;
+'ALV1';Porlasztók beviszgálása;4,00;6350,00;6350,00;25400,00;27,00;6858,00;32258,00;0,00;

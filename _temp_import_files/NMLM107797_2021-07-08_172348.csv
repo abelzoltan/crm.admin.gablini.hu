@@ -1,0 +1,10 @@
+Munkalap száma;Ügyfél;E-mail;Telefon; Bruttó végösszeg; Ügyintézõ;
+NMLM107797;Béres Gábor Zsolt;kiss.balazs@gablini.hu; (30) 5509955;170439,00;Erdélyi János;
+Cikkszám;Megnevezés;Mennyiség;Listaár;Egységár;Nettó érték;Áfa kulcs;Adó;Bruttó érték;Kedvezmény;
+'51712A6000H';E. FÉKTÁRCSA / db;2,00;33770,00;33770,00;67540,00;27,00;18236,00;85776,00;0,00;
+'58101A6A01H';PAD KIT-FRONT DISC BRAKE;1,00;31784,00;31784,00;31784,00;27,00;8582,00;40366,00;0,00;
+Normakód;Megnevezés;Mennyiség;Listaár;Egységár;Nettó érték;Áfa kulcs;Adó;Bruttó érték;Kedvezmény;
+'0111';FÉKMÉRÉS;0,50;15900,00;15900,00;7950,00;27,00;2147,00;10097,00;0,00;
+'44009A';ELSÕ FÉKTÁRCSA ÉS BETÉT CSERE;1,50;15900,00;15900,00;23850,00;27,00;6440,00;30290,00;0,00;
+Kód;Megnevezés;Mennyiség;Listaár;Egységár;Nettó érték;Áfa kulcs;Adó;Bruttó érték;Kedvezmény;
+'SANYAG';Segédanyag;1,00;3080,00;3080,00;3080,00;27,00;832,00;3912,00;0,00;

@@ -1,0 +1,14 @@
+Munkalap száma;Ügyfél;E-mail;Telefon; Bruttó végösszeg; Ügyintézõ;
+NMLM101776;Cseres Krisztina;info@gablini.hu;(1) 4013033 (30) 4013033;100891,00;Erdélyi János;
+Cikkszám;Megnevezés;Mennyiség;Listaár;Egységár;Nettó érték;Áfa kulcs;Adó;Bruttó érték;Kedvezmény;
+'0000031338';OLAJ LEERESZTÕ ALÁTÉT;1,00;346,00;346,00;346,00;27,00;93,00;439,00;0,00;
+'00001109AL';OLAJSZÛRÕ;1,00;4671,00;4671,00;4671,00;27,00;1261,00;5932,00;0,00;
+'020T';MOTOROLAJ 0W-20 XLL C5;3,50;8750,00;8750,00;30625,00;27,00;8269,00;38894,00;0,00;
+'9833351080';SZENES SZR;1,00;12029,00;12029,00;12029,00;27,00;3248,00;15277,00;0,00;
+Normakód;Megnevezés;Mennyiség;Listaár;Egységár;Nettó érték;Áfa kulcs;Adó;Bruttó érték;Kedvezmény;
+'95EH2A';ELLENORZÉS ÁTROZSDÁSODÁS ELLENI GARANCIA A GÉPKOCSIN;0,40;18900,00;18900,00;7560,00;27,00;2041,00;9601,00;0,00;
+'95N17A';CSERE POLLENSZÛRÕ KARBANTARTÁS SORÁ;0,20;18900,00;18900,00;3780,00;27,00;1021,00;4801,00;0,00;
+'95N48A';Rendszeres karbantartás;1,00;18900,00;18900,00;18900,00;27,00;5103,00;24003,00;0,00;
+'KBMO';Külsõ-belsõ mosás;1,00;1,00;1,00;1,00;27,00;0,00;1,00;0,00;
+Kód;Megnevezés;Mennyiség;Listaár;Egységár;Nettó érték;Áfa kulcs;Adó;Bruttó érték;Kedvezmény;
+'SANYAG';Segédanyag;1,00;1530,00;1530,00;1530,00;27,00;413,00;1943,00;0,00;

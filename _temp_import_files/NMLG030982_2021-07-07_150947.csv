@@ -1,0 +1,9 @@
+Munkalap száma;Ügyfél;E-mail;Telefon; Bruttó végösszeg; Ügyintézõ;
+NMLG030982;Török József;török.jozsef68@gmail.com; (20) 9858210;258045,00;Sepsei Nándor;
+Cikkszám;Megnevezés;Mennyiség;Listaár;Egységár;Nettó érték;Áfa kulcs;Adó;Bruttó érték;Kedvezmény;
+'284102A600';VALVE ASSY-EGR;1,00;165710,00;165710,00;165710,00;27,00;44742,00;210452,00;0,00;
+'284212A600';GASKET-EGR COOLER;1,00;3475,00;3475,00;3475,00;27,00;938,00;4413,00;0,00;
+Normakód;Megnevezés;Mennyiség;Listaár;Egységár;Nettó érték;Áfa kulcs;Adó;Bruttó érték;Kedvezmény;
+'EA14A2';EGR CSERE;2,00;14500,00;14500,00;29000,00;27,00;7830,00;36830,00;0,00;
+Kód;Megnevezés;Mennyiség;Listaár;Egységár;Nettó érték;Áfa kulcs;Adó;Bruttó érték;Kedvezmény;
+'SANYAG';Segédanyag;1,00;5000,00;5000,00;5000,00;27,00;1350,00;6350,00;0,00;

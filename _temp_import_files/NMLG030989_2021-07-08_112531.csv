@@ -1,0 +1,9 @@
+Munkalap száma;Ügyfél;E-mail;Telefon; Bruttó végösszeg; Ügyintézõ;
+NMLG030989;LCS KFT;@; (20)9459229;89000,00;Lovász Tamás Dávid;
+Cikkszám;Megnevezés;Mennyiség;Listaár;Egységár;Nettó érték;Áfa kulcs;Adó;Bruttó érték;Kedvezmény;
+'10951963';HÁTSÓ FÉKBETÉT;1,00;16512,00;16512,00;16512,00;27,00;4458,00;20970,00;0,00;
+'10964377';H. FÉKTÁRCSA / DB;2,00;15156,00;15156,00;30312,00;27,00;8184,00;38496,00;0,00;
+Normakód;Megnevezés;Mennyiség;Listaár;Egységár;Nettó érték;Áfa kulcs;Adó;Bruttó érték;Kedvezmény;
+'BDP';FÉKTÁRCSA ÉS FÉKBETÉT CSERE Átvizsg;1,50;14500,00;14500,00;21750,00;27,00;5873,00;27623,00;0,00;
+Kód;Megnevezés;Mennyiség;Listaár;Egységár;Nettó érték;Áfa kulcs;Adó;Bruttó érték;Kedvezmény;
+'SANYAG';Segédanyag;1,00;1505,00;1505,00;1505,00;27,00;406,00;1911,00;0,00;

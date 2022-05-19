@@ -1,0 +1,11 @@
+Munkalap száma;Ügyfél;E-mail;Telefon; Bruttó végösszeg; Ügyintézõ;
+NMLG031078;BIT-SECURITY KFT;hbeci@bitsec.hu; (20)9451146;187333,00;Lovász Tamás Dávid;
+Cikkszám;Megnevezés;Mennyiség;Listaár;Egységár;Nettó érték;Áfa kulcs;Adó;Bruttó érték;Kedvezmény;
+'58101D4A15';ELSÕ FÉKBETÉT KLT.;1,00;34321,00;34321,00;34321,00;27,00;9267,00;43588,00;0,00;
+'58302D4A55';HÁTSÓ FÉKBETÉT KLT.;1,00;33058,00;33058,00;33058,00;27,00;8926,00;41984,00;0,00;
+'S517123K160-A';ELSÕ FÉKTÁRCSA;2,00;27238,00;27238,00;54476,00;27,00;14709,00;69185,00;0,00;
+Normakód;Megnevezés;Mennyiség;Listaár;Egységár;Nettó érték;Áfa kulcs;Adó;Bruttó érték;Kedvezmény;
+'42055A';ELSÕ FÉKTÁRCSA FÉKBETÉT CSERE;1,50;14500,00;14500,00;21750,00;27,00;5873,00;27623,00;0,00;
+'AAF02';FÉKBETÉT CSERE HÁTSÓ;0,01;14500,00;14500,00;145,00;27,00;39,00;184,00;0,00;
+Kód;Megnevezés;Mennyiség;Listaár;Egységár;Nettó érték;Áfa kulcs;Adó;Bruttó érték;Kedvezmény;
+'SANYAG';Segédanyag;1,00;3756,00;3756,00;3756,00;27,00;1014,00;4770,00;0,00;
