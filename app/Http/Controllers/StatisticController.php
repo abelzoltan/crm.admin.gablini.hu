@@ -134,7 +134,9 @@ class StatisticController extends BaseController
 		$return["countFormatted"] = number_format($return["count"], 0, "", " ")." db";
 		foreach($return["rows"] AS $statOrder => $row)
 		{
-			$return["rows"][$statOrder]["percentage"] = $percentage = ($row["count"] * 100) / $return["count"];
+            if ($return["count"] && $return["count"] != 0) {
+                $return["rows"][$statOrder]["percentage"] = $percentage = ($row["count"] * 100) / $return["count"];
+            }
 			$return["rows"][$statOrder]["percentageChart"] = number_format($percentage, 2, ".", " ");
 			$return["rows"][$statOrder]["percentageFormatted"] = number_format($percentage, 2, ",", " ")."%";
 		}

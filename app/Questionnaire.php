@@ -47,7 +47,13 @@ class Questionnaire extends Base
 			"lakohely-kozel" => ["name" => "Lakóhelye közelében található", "active" => 1],
 			"itt-vasarolt" => ["name" => "Itt vásárolta az autóját", "active" => 1],
 			"automento" => ["name" => "Autómentő szállította be", "active" => 1],
-			"egyeb" => ["name" => "Egyéb", "active" => 1],
+			"sajat-munkatars" => ["name" => "Saját munkatárs", "active" => 1],
+            "munkatars" => ["name" => "Munkatársunkat ismeri/Munkatársunk ajánlotta", "active" => 1],
+            "ismeri" => ["name" => "Ismeri a cégünket", "active" => 1],
+            "aruhazi-kiallitas" => ["name" => "Áruházi kiállítás", "active" => 1],
+            "rendezveny" => ["name" => "Rendezvény", "active" => 1],
+            "fotaxi" => ["name" => "Főtaxi hirdetés", "active" => 1],
+            "egyeb" => ["name" => "Egyéb", "active" => 1],
 		];
 
 		if(empty($name)) { return $return; }
