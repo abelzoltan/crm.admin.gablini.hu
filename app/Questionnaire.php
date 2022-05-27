@@ -38,7 +38,6 @@ class Questionnaire extends Base
 			"google-hirdetes" => ["name" => "Google hirdetés", "active" => 1],
 			"youtube-csatorna" => ["name" => "Youtube csatorna", "active" => 1],
 			"edm" => ["name" => "Hírlevél/Edm", "active" => 1],
-			"tesco-radio" => ["name" => "Tesco Rádió", "active" => 1],
 			"radio-egyeb" => ["name" => "Rádió egyéb", "active" => 1],
 			"sajto-hirdetes" => ["name" => "Sajtó hirdetés", "active" => 1],
 			"oriasplakat" => ["name" => "Óriásplakát", "active" => 1],
