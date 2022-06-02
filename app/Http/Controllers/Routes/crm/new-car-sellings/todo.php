@@ -183,8 +183,8 @@ elseif($routes[1] == "work")
 						$datas["_customerCode"] = $customer["code"];
 						$datas["_customerName"] = $customer["name"];
 						$datas["_customerEmail"] = $customer["email"];
-						
-						$return = $qestionnaires->newAnswer($event["questionnaireID"], $event["customerID"], $event["id"], $GLOBALS["user"]["id"], $datas); 
+
+						$return = $qestionnaires->newAnswer($event["questionnaireID"], $event["customerID"], $event["id"], $GLOBALS["user"]["id"], $datas);
 						
 						if($return["success"]) 
 						{ 
@@ -203,7 +203,7 @@ elseif($routes[1] == "work")
 							if(in_array("foreign-row-not-exists", $return["errors"])) { $ajaxMsg .= "<br>Az eladás nem azonosítható!"; }
 							if(in_array("customerData", $return["errors"])) { $ajaxMsg .= "<br>Hiányzó ügyfél adatok!"; }
 							if(in_array("required", $return["errors"])) 
-							{ 
+							{
 								$requiredString = implode(", ", $return["required"]);
 								$ajaxMsg .= "<br>A következő adatok kitöltése kötelező: <em>".$requiredString."</em>"; 
 							}

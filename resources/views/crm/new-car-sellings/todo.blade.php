@@ -126,12 +126,12 @@
 			{
 				fromWhereTextInputSelector = "#newcar-selling-todo-question-fromWhereText-" + eventID;
 				if($(e).val() == "egyeb") 
-				{ 
+				{
 					$(fromWhereTextInputSelector).show(); 
 					$(fromWhereTextInputSelector).prop("required", true); 
 				}
 				else
-				{ 
+				{
 					$(fromWhereTextInputSelector).prop("required", false); 
 					$(fromWhereTextInputSelector).hide(); 
 				}

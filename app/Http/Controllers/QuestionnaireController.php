@@ -534,6 +534,7 @@ class QuestionnaireController extends BaseController
 				
 				#Dynamic answers
 				$inputTypes = $qForm["inputTypes"];
+
 				foreach($qForm["questions"] AS $questionID => $question)
 				{
 					#Get type and input-watch
@@ -638,7 +639,13 @@ class QuestionnaireController extends BaseController
 				#From where
 				$fromWhere = (isset($datas["_fromWhere"])) ? $datas["_fromWhere"] : "";
 				$fromWhereText = ($fromWhere == "egyeb" AND isset($datas["_fromWhereText"])) ? $datas["_fromWhereText"] : "";
-				
+
+                if (!$this->checkFromWhereEgyebRequired($fromWhere, $datas, $return)) {
+                    $return["success"] = false;
+                    $return["errors"][] = "required";
+                    $return["required"][] = "fromWhereText";
+                }
+
 				$return["answers"][] = [
 					"questionID" => NULL,
 					"question" => $this->model->fromWhereQuestion,
@@ -1172,4 +1179,12 @@ class QuestionnaireController extends BaseController
 	{
 		return $this->model->jsonDecode($string);
 	}
+
+    private function checkFromWhereEgyebRequired($fromWhere, $datas, array $return)
+    {
+        if ($fromWhere == "egyeb" AND (!isset($datas["_fromWhereText"]) || $datas["_fromWhereText"] == "")) {
+            return false;
+        }
+        return true;
+    }
 }
