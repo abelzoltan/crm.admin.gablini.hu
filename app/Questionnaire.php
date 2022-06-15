@@ -53,6 +53,7 @@ class Questionnaire extends Base
             "rendezveny" => ["name" => "Rendezvény", "active" => 1],
             "fotaxi" => ["name" => "Főtaxi hirdetés", "active" => 1],
             "callcenter" => ["name" => "Call center / ügyintéző által történt kapcsolatfelvétel", "active" => 1],
+            "uzletben" => ["name" => "Üzletben", "active" => 1],
             "egyeb" => ["name" => "Egyéb", "active" => 1],
 		];
 
