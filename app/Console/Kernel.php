@@ -40,6 +40,8 @@ class Kernel extends ConsoleKernel
 		Commands\CRM\Questionnaires\ExportAllQuestionnaireAnswers::class,
 		Commands\CRM\Questionnaires\FromWheres::class,
         Commands\CRM\Questionnaires\HasBadValueWithoutComment::class,
+
+        Commands\CRM\Questionnaires\TestCommand::class,
 	];
 
     protected function schedule(Schedule $schedule)

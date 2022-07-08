@@ -316,7 +316,7 @@ class QuestionnaireController extends BaseController
 					#Details
 					$name = $originalName = $question["question"];
 					if($question["required"]) { $name .= " <em>[KÖTELEZŐ!]</em>"; }
-					$return["answers"][$question["questionID"]] = $answerRowHere = [
+					$return["answers"][$this->getQuestionId($question["questionID"])] = $answerRowHere = [
 						"originalName" => $originalName,
 						"name" => $name,
 						"val" => nl2br($question["answer"]),
@@ -1249,5 +1249,14 @@ class QuestionnaireController extends BaseController
             return false;
         }
         return true;
+    }
+
+    private function getQuestionId($questionID)
+    {
+        if (isset($questionID) && $questionID != null) {
+            return $questionID;
+        } else {
+            return uniqid();
+        }
     }
 }
