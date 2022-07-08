@@ -99,7 +99,7 @@ class Kernel extends ConsoleKernel
 		
 		#Questionnaires
 		$schedule->command("crm:questionnaireFromWheres")->mondays()->at("07:00");
-        $schedule->command("crm:hasBadValueWithoutComments")->dailyAt("15:37");
+        $schedule->command("crm:hasBadValueWithoutComments")->hourlyAt(10);
     }
 
     protected function commands()

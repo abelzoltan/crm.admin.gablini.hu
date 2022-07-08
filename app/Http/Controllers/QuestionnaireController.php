@@ -1181,10 +1181,11 @@ class QuestionnaireController extends BaseController
 	}
 
     public function processHasBadValuesWithoutComments() {
-        $dateFrom = date("Y-m-d 00:00:00", strtotime("-1 day"));
+        $dateFrom = date("Y-m-d 00:00:00", strtotime("-31 day"));
+        $dateTo = date("Y-m-d H:i", strtotime("-1 day"));
+        print_r($dateTo);
 
-
-        return $this->processHasBadValuesWithoutComment($dateFrom, null, true);
+        return $this->processHasBadValuesWithoutComment($dateFrom, $dateTo, true);
     }
 
     private function processHasBadValuesWithoutComment($dateFrom = NULL, $dateTo = NULL, $sendEmail = true, $dateTextForEmail = NULL, $addressListURL = NULL) {
@@ -1193,10 +1194,10 @@ class QuestionnaireController extends BaseController
             "rows" => [],
             "links" => [],
         ];
-        $rows = $this->getHasBadValuesWithoutComments($dateFrom, $dateTo);
+        $rows = $this->getAnswersHasBadValues($dateFrom, $dateTo);
         foreach($rows AS $row) {
             $commentRows = $this->getCommentRowsByAnswerId($row->id);
-            if (isset($commentRows)) {
+            if (!isset($commentRows) || empty($commentRows)) {
                 $return["rows"][$row->id] = $row;
                 $return["links"][$row->id] = $this->createAnswerDetailLinkById($row->id);
             }
@@ -1212,7 +1213,7 @@ class QuestionnaireController extends BaseController
         return $return;
     }
 
-    private function getHasBadValuesWithoutComments($dateFrom = NULL, $dateTo = NULL) {
+    private function getAnswersHasBadValues($dateFrom = NULL, $dateTo = NULL) {
         #Query
         $query = "SELECT * FROM ".$this->model->tables("answers")." WHERE del = '0' AND hasBadValue = '1'";
         $params = [];
