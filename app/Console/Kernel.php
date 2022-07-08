@@ -39,6 +39,7 @@ class Kernel extends ConsoleKernel
 		
 		Commands\CRM\Questionnaires\ExportAllQuestionnaireAnswers::class,
 		Commands\CRM\Questionnaires\FromWheres::class,
+        Commands\CRM\Questionnaires\HasBadValueWithoutComment::class,
 	];
 
     protected function schedule(Schedule $schedule)
@@ -98,6 +99,7 @@ class Kernel extends ConsoleKernel
 		
 		#Questionnaires
 		$schedule->command("crm:questionnaireFromWheres")->mondays()->at("07:00");
+        $schedule->command("crm:hasBadValueWithoutComments")->dailyAt("15:37");
     }
 
     protected function commands()

@@ -1180,6 +1180,69 @@ class QuestionnaireController extends BaseController
 		return $this->model->jsonDecode($string);
 	}
 
+    public function processHasBadValuesWithoutComments() {
+        $dateFrom = date("Y-m-d 00:00:00", strtotime("-1 day"));
+
+
+        return $this->processHasBadValuesWithoutComment($dateFrom, null, true);
+    }
+
+    private function processHasBadValuesWithoutComment($dateFrom = NULL, $dateTo = NULL, $sendEmail = true, $dateTextForEmail = NULL, $addressListURL = NULL) {
+        #Return array
+        $return = [
+            "rows" => [],
+            "links" => [],
+        ];
+        $rows = $this->getHasBadValuesWithoutComments($dateFrom, $dateTo);
+        foreach($rows AS $row) {
+            $commentRows = $this->getCommentRowsByAnswerId($row->id);
+            if (isset($commentRows)) {
+                $return["rows"][$row->id] = $row;
+                $return["links"][$row->id] = $this->createAnswerDetailLinkById($row->id);
+            }
+        }
+
+        #Send e-mail
+        if($sendEmail)
+        {
+            $emailController = new \App\Http\Controllers\EmailController;
+            include(DIR_VIEWS."emails/questionnaire/hasBadValueWithoutComment.php");
+        }
+
+        return $return;
+    }
+
+    private function getHasBadValuesWithoutComments($dateFrom = NULL, $dateTo = NULL) {
+        #Query
+        $query = "SELECT * FROM ".$this->model->tables("answers")." WHERE del = '0' AND hasBadValue = '1'";
+        $params = [];
+
+        if($dateFrom !== NULL)
+        {
+            $query .= " AND date >= :dateFrom";
+            $params["dateFrom"] = $dateFrom;
+        }
+
+        if($dateTo !== NULL)
+        {
+            $query .= " AND date <= :dateTo";
+            $params["dateTo"] = $dateTo;
+        }
+
+        #Store rows into array
+        return $this->model->select($query, $params);
+    }
+
+    private function getCommentRowsByAnswerId($id) {
+        $query = "SELECT * FROM ".$this->model->tables("answerComments")." WHERE id = $id";
+        $params = [];
+        return $this->model->select($query, $params);
+    }
+
+    private function createAnswerDetailLinkById($id) {
+        return env("PATH_CRM_WEB")."/questionnaire-answers/details/".$id;
+    }
+
     private function checkFromWhereEgyebRequired($fromWhere, $datas, array $return)
     {
         if ($fromWhere == "egyeb" AND (!isset($datas["_fromWhereText"]) || $datas["_fromWhereText"] == "")) {
